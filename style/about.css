@@ -1,0 +1,169 @@
+header {
+  background-image: url(../images/about-banner.png);
+  background-size: contain;
+  /* background-position: top 126% left 0%; */
+}
+
+h1 {font-size: 7vw;}
+h3 {font-size: 5vw;}
+h2 {font-size: 5vw;}
+p {font-size: 4vw;}
+
+#main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.main-header-h3 {
+  text-align: center;
+  color: #f8412b;
+}
+
+.main-header-h1 {
+  text-align: center;
+  color: #f8412b;
+  margin-bottom: 10%;
+}
+
+.main-header-desc {
+  text-align: center;
+  color: #4f4f4f;
+  background-color: white;
+  padding: 6% 4%;
+}
+
+.main-header-p {
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.main-header-mail {
+  font-weight: 700;
+}
+/* -------------------------Date---------------------------- */
+
+#date {
+  text-align: center;
+  padding: 10% 5%;
+}
+
+.date-h2::after {
+  content: '';
+  width: 10%;
+  display: block;
+  margin: 3% auto;
+  border: 1px solid #f8412b;
+}
+
+
+.date-p {
+  margin: 5% 0 10%;
+  color: #4f4f4f;
+}
+
+.date-img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  border: 1px solid;
+}
+
+/* -------------------------Past---------------------------- */
+#past {
+  padding: 8%;
+  text-align: center;
+}
+
+.past-p {
+  padding: 3%;
+  color: #4f4f4f;
+}
+
+.past-h2::after {
+  content: '';
+  width: 10%;
+  display: block;
+  margin: 3% auto;
+  border: 1px solid #f8412b;
+}
+
+.past-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  margin-top: 10%;
+}
+
+.img-container{
+  position: relative;
+}
+
+.layer {
+  background-color: rgba(236, 82, 66, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.text-past{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+.past-img{
+  max-width: 100%;
+}
+
+/* -------------------------Partner---------------------------- */
+#partners {
+  background-color: #424146;
+}
+
+.partners-h2 {
+  padding-top: 10%;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.partners-h2::after {
+  content: "";
+  display: block;
+  border: 2px solid #ec5242;
+  width: 10%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.partners-companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.partners-companies li {
+  padding: 3%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10%;
+  padding: 0 10%;
+}
+
+footer p {
+  margin-top: 3%;
+  color: #4f4f4f;
+}

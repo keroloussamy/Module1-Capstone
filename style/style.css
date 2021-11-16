@@ -1,0 +1,164 @@
+h1 {font-size: 7vw;}
+h3 {font-size: 5vw;}
+h2 {font-size: 5vw;}
+p {font-size: 4vw;}
+
+header {
+  background-image: url(../images/introduction-bg.png);
+  background-size: cover;
+}
+
+#main-header {
+  padding: 10% 5%;
+  
+}
+
+.main-header-h3 {
+  color: #ec5242;
+}
+
+.main-header-h1 {
+  background-image: url(../images/text-bg.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-header-p1 {
+  border: 2px solid #fff;
+  background-color: #f7f7f7;
+  padding: 4% 5%;
+  color: #272a31;
+}
+
+.main-header-h2 {
+  color: #272a31;
+}
+
+.main-header-p2 {
+  color: #272a31;
+  font-weight: 500;
+}
+/* -------------------------Main-Program---------------------------- */
+#main-program {
+  background-image: url(../images/main-program-banner.png);
+  padding: 2%;
+  
+}
+
+.program-h2 {
+  text-align: center;
+  color: #eeeff1;
+  margin: 10% 0;
+}
+
+.program-h2::after {
+  content: '';
+  display: block;
+  border: 2px solid #ec5242;
+  width: 10%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.program-card {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+  align-items: center;
+  column-gap: 3%;
+  background-color: rgba(59, 62, 69, 0.4);
+  margin: 3%;
+}
+
+.icon {
+  color: #fff;
+}
+
+.program-card-h4 {
+  color: #ec5242;
+}
+
+.program-card-desc {
+  color: #eeeff1;
+  padding: 0 5%;
+}
+
+.program-card-btn {
+  padding: 5% 10%;
+  background-color: #ec5242;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  margin: 10% auto;
+}
+/* -------------------------Main-Program---------------------------- */
+
+
+
+/* -------------------------Partner---------------------------- */
+#partners {
+  background-color: #424146;
+}
+
+.partners-h2 {
+  padding-top: 10%;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.partners-h2::after {
+  content: '';
+  display: block;
+  border: 2px solid #ec5242;
+  width: 10%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.partners-companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.partners-companies li {
+  padding: 3%;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10%;
+  padding: 0 10%;
+}
+
+footer p {
+  margin-top: 3%;
+}
+
+/* -------------------------------------------------------- */
+@media screen and (min-width: 576px) {
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
