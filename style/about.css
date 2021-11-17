@@ -15,12 +15,15 @@ header {
 h1 {
   font-size: 6vw;
 }
+
 h3 {
   font-size: 4vw;
 }
+
 h2 {
   font-size: 4vw;
 }
+
 p {
   font-size: 3vw;
 }
@@ -41,7 +44,7 @@ p {
   font-size: 20px;
 }
 
-.active-nav{
+.active-nav {
   color: #ec5242;
 }
 
@@ -85,6 +88,7 @@ p {
 .main-header-mail {
   font-weight: 700;
 }
+
 /* -------------------------Date---------------------------- */
 
 #date {
@@ -213,15 +217,19 @@ footer p {
   h1 {
     font-size: 5vw;
   }
+
   h3 {
     font-size: 3vw;
   }
+
   h2 {
     font-size: 2vw;
   }
+
   p {
     font-size: 1.2vw;
   }
+
   nav {
     background-color: #fff;
   }
@@ -259,7 +267,7 @@ footer p {
     width: 3%;
   }
 
- /* -------------------------- */
+  /* -------------------------- */
   #past {
     padding: 3% 8% 8%;
   }
@@ -276,6 +284,7 @@ footer p {
     width: 3%;
     margin: 1% auto;
   }
+
   /* ------------------partners--------------------- */
   .partners-h2 {
     padding-top: 2%;
@@ -285,6 +294,7 @@ footer p {
     width: 3%;
     margin-top: 1%;
   }
+
   /* -------------------footer-------------------- */
   footer {
     background-color: hsl(0, 0%, 90%);

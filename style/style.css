@@ -10,15 +10,19 @@ body {
 h1 {
   font-size: 6vw;
 }
+
 h3 {
   font-size: 4vw;
 }
+
 h2 {
   font-size: 4vw;
 }
+
 h4 {
   font-size: 3.5vw;
 }
+
 p {
   font-size: 3vw;
 }
@@ -44,7 +48,7 @@ header {
   font-size: 20px;
 }
 
-.active-nav{
+.active-nav {
   color: #ec5242;
 }
 
@@ -87,6 +91,7 @@ header {
   color: hsl(0, 0%, 35%);
   font-weight: 500;
 }
+
 /* -------------------------Main-Program---------------------------- */
 #main-program {
   background-image: url(../images/main-program-banner.png);
@@ -140,7 +145,6 @@ header {
   margin: 10% auto;
 }
 /* -------------------------Main-Program---------------------------- */
-
 /* -------------------------Partner---------------------------- */
 #partners {
   background-color: #424146;
@@ -190,15 +194,19 @@ footer p {
   h1 {
     font-size: 5vw;
   }
+
   h3 {
     font-size: 3vw;
   }
+
   h2 {
     font-size: 3vw;
   }
+
   h4 {
     font-size: 2vw;
   }
+
   p {
     font-size: 2vw;
   }
@@ -208,18 +216,23 @@ footer p {
   h1 {
     font-size: 5vw;
   }
+
   h3 {
     font-size: 3vw;
   }
+
   h2 {
     font-size: 2vw;
   }
+
   h4 {
     font-size: 2vw;
   }
+
   p {
     font-size: 1.2vw;
   }
+
   header {
     background-size: contain;
   }
@@ -240,6 +253,7 @@ footer p {
     padding: 2% 2.5%;
     width: 60%;
   }
+
   /* ------------------------ */
   #main-program {
     padding: 2% 8%;
@@ -281,7 +295,6 @@ footer p {
     text-decoration: underline;
   }
   /* --------------------------------------- */
-
   /* ------------------partners--------------------- */
   .partners-h2 {
     padding-top: 2%;
@@ -291,6 +304,7 @@ footer p {
     width: 3%;
     margin-top: 1%;
   }
+
   /* -------------------footer-------------------- */
   footer {
     background-color: hsl(0, 0%, 90%);
