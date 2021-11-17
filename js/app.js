@@ -45,20 +45,19 @@ window.onload = () => {
   ];
 
   let cards = '';
-  for (let i = 0; i < instractors.length; i + 1) {
-    const element = instractors[i];
+  instractors.forEach((e) => {
     cards += `<div class="instractor-card col-md-6 row">
-        <div class="instractor-img-container col-4">
-          <img class="racing-img" src="images/checkers.jpg" alt="checkers">
-          <img class="instractor-img" src="${element.pic}" alt="${element.alt}">
-        </div>
-        <div class="col-8 pt-2 ps-4">
-          <h2">${element.name}</h2>
-          <h5 class="instractor-title">${element.title}</h5>
-          <p>${element.desc}</p>
-        </div>
-      </div>`;
-  }
+    <div class="instractor-img-container col-4">
+      <img class="racing-img" src="images/checkers.jpg" alt="checkers">
+      <img class="instractor-img" src="${e.pic}" alt="${e.alt}">
+    </div>
+    <div class="col-8 pt-2 ps-4">
+      <h2">${e.name}</h2>
+      <h5 class="instractor-title">${e.title}</h5>
+      <p>${e.desc}</p>
+    </div>
+  </div>`;
+  });
 
   document.querySelector('.instractors').innerHTML = cards;
 };
