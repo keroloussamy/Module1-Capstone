@@ -144,7 +144,64 @@ header {
   display: block;
   margin: 10% auto;
 }
+
 /* -------------------------Main-Program---------------------------- */
+#featured-instractors {
+  background-color: #fff;
+  padding: 5% 2%;
+}
+
+.instractors-h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.instractors-h2 ::after {
+  content: "";
+  display: block;
+  border: 1px solid #ec5242;
+  width: 10%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.instractor-title {
+  color: #ec5242;
+}
+
+.instractor-title::after {
+  content: '';
+  width: 8%;
+  margin-top: 2%;
+  display: block;
+  border: 1px solid #d3d3d3;
+}
+
+.instractor-card {
+  padding-bottom: 6%;
+}
+
+.instractor-img-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.racing-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 40%;
+}
+
+.instractor-img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 85%;
+  height: 100%;
+}
+
 /* -------------------------Partner---------------------------- */
 #partners {
   background-color: #424146;
@@ -209,6 +266,10 @@ footer p {
 
   p {
     font-size: 2vw;
+  }
+
+  .instractor-img {
+    width: 70%;
   }
 }
 
@@ -294,7 +355,16 @@ footer p {
     border: 0;
     text-decoration: underline;
   }
-  /* --------------------------------------- */
+
+  /* -------------------featured-Instractors-------------------- */
+  #featured-instractors {
+    padding: 5% 10%;
+  }
+
+  .racing-img {
+    width: 30%;
+  }
+
   /* ------------------partners--------------------- */
   .partners-h2 {
     padding-top: 2%;
