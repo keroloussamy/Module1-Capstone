@@ -1,16 +1,60 @@
-h1 {font-size: 7vw;}
-h3 {font-size: 5vw;}
-h2 {font-size: 5vw;}
-p {font-size: 4vw;}
+@font-face {
+  font-family: cocogoose;
+  src: url('../fonts/cocogoose-pro.regular.ttf');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 6vw;
+}
+h3 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 4vw;
+}
+h4 {
+  font-size: 3.5vw;
+}
+p {
+  font-size: 3vw;
+}
 
 header {
   background-image: url(../images/introduction-bg.png);
   background-size: cover;
 }
 
+.black-nav {
+  background-color: #272a31;
+  padding: 3px;
+}
+
+.black-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.active-nav{
+  color: #ec5242;
+}
+
+.join-us {
+  border: 2px solid #ec5242;
+  padding: 5px;
+}
+
 #main-header {
   padding: 10% 5%;
-  
 }
 
 .main-header-h3 {
@@ -23,6 +67,7 @@ header {
   -webkit-text-fill-color: transparent;
   font-weight: 700;
   text-transform: uppercase;
+  font-family: cocogoose, sans-serif;
 }
 
 .main-header-p1 {
@@ -34,17 +79,18 @@ header {
 
 .main-header-h2 {
   color: #272a31;
+  font-weight: 700;
+  font-family: cocogoose, sans-serif;
 }
 
 .main-header-p2 {
-  color: #272a31;
+  color: hsl(0, 0%, 35%);
   font-weight: 500;
 }
 /* -------------------------Main-Program---------------------------- */
 #main-program {
   background-image: url(../images/main-program-banner.png);
   padding: 2%;
-  
 }
 
 .program-h2 {
@@ -54,9 +100,9 @@ header {
 }
 
 .program-h2::after {
-  content: '';
+  content: "";
   display: block;
-  border: 2px solid #ec5242;
+  border: 1px solid #ec5242;
   width: 10%;
   margin: auto;
   margin-top: 5%;
@@ -95,8 +141,6 @@ header {
 }
 /* -------------------------Main-Program---------------------------- */
 
-
-
 /* -------------------------Partner---------------------------- */
 #partners {
   background-color: #424146;
@@ -109,9 +153,9 @@ header {
 }
 
 .partners-h2::after {
-  content: '';
+  content: "";
   display: block;
-  border: 2px solid #ec5242;
+  border: 1px solid #ec5242;
   width: 10%;
   margin: auto;
   margin-top: 3%;
@@ -122,12 +166,12 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
+  margin-bottom: 0;
 }
 
 .partners-companies li {
   padding: 3%;
 }
-
 
 footer {
   display: flex;
@@ -143,22 +187,122 @@ footer p {
 
 /* -------------------------------------------------------- */
 @media screen and (min-width: 576px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h4 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 2vw;
+  }
 }
-
-
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  h4 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 1.2vw;
+  }
+  header {
+    background-size: contain;
+  }
 
+  nav {
+    background-color: #fff;
+  }
+
+  .nav-img {
+    width: 68%;
+  }
+
+  #main-header {
+    padding: 8% 15%;
+  }
+
+  .main-header-p1 {
+    padding: 2% 2.5%;
+    width: 60%;
+  }
+  /* ------------------------ */
+  #main-program {
+    padding: 2% 8%;
+  }
+
+  .program-h2 {
+    margin: 1% 0 0;
+  }
+
+  .program-h2::after {
+    margin-top: 1%;
+    width: 5%;
+  }
+
+  .main-program-ul {
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .program-card {
+    display: initial;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .program-card-h4 {
+    margin-top: 10px;
+  }
+
+  .program-card-btn {
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    font-weight: initial;
+    display: block;
+    margin: 6% auto;
+    border: 0;
+    text-decoration: underline;
+  }
+  /* --------------------------------------- */
+
+  /* ------------------partners--------------------- */
+  .partners-h2 {
+    padding-top: 2%;
+  }
+
+  .partners-h2::after {
+    width: 3%;
+    margin-top: 1%;
+  }
+  /* -------------------footer-------------------- */
+  footer {
+    background-color: hsl(0, 0%, 90%);
+    padding: 2% 0;
+  }
+
+  .footer-img {
+    border-radius: 50%;
+  }
+
+  footer p {
+    margin-top: 2%;
+    font-size: 16px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-

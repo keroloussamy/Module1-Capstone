@@ -29,8 +29,20 @@
   </head>
   <body>
     <header>
+      <section>
+        <div class="black-nav h-100 d-none d-md-flex align-items-center justify-content-end gap-3 pe-5">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#">Logout</a>
+          <a href="#">My Page</a>
+          <a href="#">English</a>
+        </div>
+      </section>
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
+          <a class="navbar-brand d-none d-md-inline" href="index.html">
+            <img class="nav-img" src="images/logo1.jpg" alt="">
+          </a>
           <button
             class="navbar-toggler border-0 fs-1 fw-bold"
             type="button"
@@ -47,11 +59,14 @@
               <li class="ms-auto d-md-none">
                 <i class="fa-solid fa-x"></i>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+              <li class="nav-item p-2">
+                <a class="nav-a active-nav" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item p-2">
+                <a class="nav-a" href="about.html">About</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-a join-us" href="#">Join Us</a>
               </li>
             </ul>
           </div>
@@ -59,7 +74,7 @@
       </nav>
 
       <section id="main-header">
-        <h3 class="main-header-h3">"Hello! Sharing world"</h3>
+        <h3 class="main-header-h3 d-md-none">"Hello! Sharing world"</h3>
         <h1 class="main-header-h1">ProCoder Full-Stack Diploma 2021</h1>
         <p class="main-header-desc">The Global Diploma brings together the community of experts, academics, and activites who comprise the ProCoder affiliate network in a different countery every two. This year, we hope to expand our invitation list including organizations and individuals</p>
         <p class="main-header-p">Please contact us per Email for any further questions about ProCoder Diploma 2021!</p>
@@ -73,27 +88,25 @@
       <section id="date">
         <h2 class="date-h2">ProCoder Full-Stack Diploma 2021</h2>
         <p class="date-p">The logo of CC ProCoder was decided through the logo competition from 8. June to 7. July.</p>
-        <img class="date-img" src="images/logo.jpg" alt="ProCoder logo">
+        <img class="date-img" src="images/logo1.jpg" alt="ProCoder logo">
       </section>
       <hr>
       <section id="past">
         <h2 class="past-h2">See The Past ProCoder Full-Stack Diplomas</h2>
         <p class="past-p">Take a look at the past two years of our diplomas courses and our students.</p>
-        <div class="past-images">
-          <div class="img-container">
+        <div class="past-images row">
+          <div class="img-container col-md-5 offset-md-1 me-md-3">
             <img class="past-img" src="images/class1.jpg" alt="">
             <div class="layer">
               <p class="text-past">ProCoder Diploma 2019</p>
             </div>
           </div>
-          <div class="img-container">
+          <div class="img-container col-md-5">
             <img class="past-img" src="images/class2.jpg" alt="">
             <div class="layer">
               <p class="text-past">ProCoder Diploma 2020</p>
             </div>
           </div>
-          
-          
         </div>
         
       </section>
@@ -111,7 +124,7 @@
     </main>
 
     <footer>
-      <img src="images/logo.jpg" width="100" alt="ProCoder logo">
+      <img class="footer-img" src="images/logo.jpg" width="100" alt="ProCoder logo">
       <p>2021 ProCoder All Rights Reserved</p>
     </footer>
     <!-- Bootstrap Bundle with Popper -->

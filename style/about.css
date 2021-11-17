@@ -1,13 +1,54 @@
+@font-face {
+  font-family: cocogoose;
+  src: url('../fonts/cocogoose-pro.regular.ttf');
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 header {
   background-image: url(../images/about-banner.png);
   background-size: contain;
-  /* background-position: top 126% left 0%; */
 }
 
-h1 {font-size: 7vw;}
-h3 {font-size: 5vw;}
-h2 {font-size: 5vw;}
-p {font-size: 4vw;}
+h1 {
+  font-size: 6vw;
+}
+h3 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 4vw;
+}
+p {
+  font-size: 3vw;
+}
+
+.black-nav {
+  background-color: #272a31;
+  padding: 3px;
+}
+
+.black-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.active-nav{
+  color: #ec5242;
+}
+
+.join-us {
+  border: 2px solid #ec5242;
+  padding: 5px;
+}
 
 #main-header {
   display: flex;
@@ -25,6 +66,8 @@ p {font-size: 4vw;}
   text-align: center;
   color: #f8412b;
   margin-bottom: 10%;
+  font-weight: 700;
+  font-family: cocogoose, sans-serif;
 }
 
 .main-header-desc {
@@ -50,13 +93,12 @@ p {font-size: 4vw;}
 }
 
 .date-h2::after {
-  content: '';
+  content: "";
   width: 10%;
   display: block;
   margin: 3% auto;
   border: 1px solid #f8412b;
 }
-
 
 .date-p {
   margin: 5% 0 10%;
@@ -82,7 +124,7 @@ p {font-size: 4vw;}
 }
 
 .past-h2::after {
-  content: '';
+  content: "";
   width: 10%;
   display: block;
   margin: 3% auto;
@@ -90,15 +132,13 @@ p {font-size: 4vw;}
 }
 
 .past-images {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   position: relative;
   margin-top: 10%;
 }
 
-.img-container{
+.img-container {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .layer {
@@ -110,7 +150,7 @@ p {font-size: 4vw;}
   height: 100%;
 }
 
-.text-past{
+.text-past {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -120,7 +160,7 @@ p {font-size: 4vw;}
   color: white;
 }
 
-.past-img{
+.past-img {
   max-width: 100%;
 }
 
@@ -138,7 +178,7 @@ p {font-size: 4vw;}
 .partners-h2::after {
   content: "";
   display: block;
-  border: 2px solid #ec5242;
+  border: 1px solid #ec5242;
   width: 10%;
   margin: auto;
   margin-top: 3%;
@@ -149,6 +189,7 @@ p {font-size: 4vw;}
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
+  margin-bottom: 0;
 }
 
 .partners-companies li {
@@ -166,4 +207,96 @@ footer {
 footer p {
   margin-top: 3%;
   color: #4f4f4f;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 1.2vw;
+  }
+  nav {
+    background-color: #fff;
+  }
+
+  .nav-img {
+    width: 68%;
+  }
+
+  #main-header {
+    background: #f7f7f8 url(../images/about_bg_01.png) center no-repeat;
+    background-size: contain;
+  }
+
+  .main-header-h1 {
+    width: 70%;
+    margin-bottom: 5%;
+  }
+
+  .main-header-desc {
+    width: 70%;
+    padding: 2% 4%;
+  }
+
+  /* -------------------------- */
+  #date {
+    padding: 4%;
+  }
+
+  .date-p {
+    margin: 0 0 3%;
+  }
+
+  .date-h2::after {
+    margin-top: 1%;
+    width: 3%;
+  }
+
+ /* -------------------------- */
+  #past {
+    padding: 3% 8% 8%;
+  }
+
+  .past-p {
+    padding: 0%;
+  }
+
+  .past-images {
+    margin-top: 4%;
+  }
+
+  .past-h2::after {
+    width: 3%;
+    margin: 1% auto;
+  }
+  /* ------------------partners--------------------- */
+  .partners-h2 {
+    padding-top: 2%;
+  }
+
+  .partners-h2::after {
+    width: 3%;
+    margin-top: 1%;
+  }
+  /* -------------------footer-------------------- */
+  footer {
+    background-color: hsl(0, 0%, 90%);
+    padding: 2% 0;
+  }
+
+  .footer-img {
+    border-radius: 50%;
+  }
+
+  footer p {
+    margin-top: 2%;
+    font-size: 16px;
+  }
 }
