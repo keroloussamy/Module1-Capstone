@@ -44,7 +44,8 @@ window.onload = () => {
     },
   ];
 
-  let cards = '';
+  try {
+    let cards = '';
   instractors.forEach((e) => {
     cards += `<div class="instractor-card col-md-6 row">
     <div class="instractor-img-container col-4">
@@ -60,4 +61,8 @@ window.onload = () => {
   });
 
   document.querySelector('.instractors').innerHTML = cards;
+  } catch (error) {
+    
+  }
+  
 };

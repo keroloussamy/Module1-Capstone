@@ -8,8 +8,7 @@ body {
 }
 
 header {
-  background-image: url(../images/about-banner.png);
-  background-size: contain;
+  background-color: #F7F7F7;
 }
 
 h1 {
@@ -58,6 +57,8 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 5%;
+  background-image: url(../images/about-banner.png);
+  background-size: contain;
 }
 
 .main-header-h3 {
@@ -285,19 +286,10 @@ footer p {
     margin: 1% auto;
   }
 
-  /* ------------------partners--------------------- */
-  .partners-h2 {
-    padding-top: 2%;
-  }
-
-  .partners-h2::after {
-    width: 3%;
-    margin-top: 1%;
-  }
 
   /* -------------------footer-------------------- */
   footer {
-    background-color: hsl(0, 0%, 90%);
+    background-color: #2E2E2E;
     padding: 2% 0;
   }
 
@@ -308,5 +300,6 @@ footer p {
   footer p {
     margin-top: 2%;
     font-size: 16px;
+    color: hsl(0, 0%, 70%);;
   }
 }

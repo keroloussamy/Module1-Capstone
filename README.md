@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portfolio
+# ProCoder Site
 
-> This is my portfolio.
+> This is a website for organization for learning programming. Capstone Project Module 1.
 
 ![screenshot](./app_screenshot.png)
 
@@ -23,8 +23,10 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-1- Click on Code button.
-2- Choose Download ZIP button. 
+
+- Click on the top right green "code" button.
+- On the dropdown menu, choose "download with zip" button.
+- After download, extract the zip file and you have the project running on your machine.
 
 
 
@@ -49,9 +51,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspired by Cindy chen design Behance
+- The design link Designlink
 
 ## 📝 License
 
