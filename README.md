@@ -18,7 +18,7 @@
 [Live Demo Link](https://keroloussamy.github.io/Module1-Capstone/)
 
 ## Video Demo
-[Video Demo Link](https://www.loom.com/share/5b2f908082564d629f6bbb160fa773df)
+[Video Demo Link](https://www.loom.com/share/a07f7047b9444f63a8b611ca7441f454)
 
 ## Getting Started
 

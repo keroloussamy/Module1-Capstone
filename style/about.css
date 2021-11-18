@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 h1 {
@@ -289,7 +289,7 @@ footer p {
 
   /* -------------------footer-------------------- */
   footer {
-    background-color: #2E2E2E;
+    background-color: #2e2e2e;
     padding: 2% 0;
   }
 
@@ -300,6 +300,6 @@ footer p {
   footer p {
     margin-top: 2%;
     font-size: 16px;
-    color: hsl(0, 0%, 70%);;
+    color: hsl(0, 0%, 70%);
   }
 }
